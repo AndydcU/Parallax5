@@ -1,0 +1,36 @@
+/* general styles */
+html,
+body {
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.sticky
+{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+  font: 90px 'Abril Fatface', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.block-1, .block-3
+{
+  height: 900px;
+  padding: 70px 20px;
+  background-size: cover;
+  background-image: url('http://www.tipue.com/img/elvis.jpg');
+  box-sizing: border-box;
+  background-position: center;
+}
+.block-2
+{
+  background: url('http://www.tipue.com/img/bomp.jpg') no-repeat fixed;
+  background-size: cover;
+  height: 900px;
+  background-position: center;
+}
+.block-3
+{
+  background-image: url('http://www.tipue.com/img/look.jpg');
+}
